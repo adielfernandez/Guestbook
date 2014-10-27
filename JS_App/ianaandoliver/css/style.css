@@ -1,0 +1,155 @@
+
+
+@font-face {
+  font-family: "champagne";
+  src: url("../fonts/champagne.ttf");
+    url("../fonts/champagne.woff") format("woff"),
+    url("../fonts/champagne.otf") format("opentype"),
+    url("../fonts/champagne.svg") format("svg");
+  }
+
+@font-face {
+  font-family: "piron";
+  src: url("../fonts/pironv2.otf");
+    url("../fonts/pironv2.woff") format("woff"),
+    url("../fonts/pironv2.ttf") format("truetype"),
+    url("../fonts/pironv2.svg") format("svg");
+  }
+
+body {
+
+   background-color: #EFECE1;
+
+}
+
+#byline {
+
+  margin-top: 10px;
+
+}
+
+
+.wrapper {
+
+   text-align: center;
+
+}
+
+
+
+
+#inputs {
+
+  margin-top: 10px;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.fieldTitle {
+  font-family: "champagne", sans-serif;
+  text-align: left;
+  font-size: 1.3em;
+  color: #4E4D4E;
+
+}
+
+#message {
+  width: 100%;
+  text-align: left;
+/*  margin-left: 25px;
+  margin-right: 25px;*/
+}
+
+#from {
+   width: 100%;
+   text-align: left;
+   margin-top: 5px;
+}
+
+#messageBox {
+   height: 80px; 
+   width: 100%; 
+   font-size: 1.0em;
+   font-family: "piron", sans-serif;
+   color: #4E4D4E;
+
+}
+
+#messageBox:focus {
+   outline: none;
+   background-color: #FFE7D6;
+}
+
+#fromBox:focus {
+   outline: none;
+   background-color: #FFE7D6;
+}
+
+#fromBox {
+   height: 1.25em; 
+   width: 100%; 
+   font-size: 1.0em;
+   font-family: "piron", sans-serif;
+   color: #4E4D4E;
+}
+
+#sendButton {
+   margin-top: 5px;
+   height:50px;
+   width:120px;
+   background-color: #35485E;
+   border: none;
+   color:#FFFFFF;
+   font-family: "champagne", Arial Black, Arial;
+   font-size:20px;
+
+}
+
+#sendButton:focus {
+
+   outline: none;
+   /*background-color: #DD762D;*/
+
+}
+
+#waitMessage {
+   margin-top: 5px;
+   /*height:50px;*/
+   width:200px;
+   background-color: #880000;
+   border: none;
+   color:#FFFFFF;
+   font-family: "champagne", Arial Black, Arial;
+   font-size:24px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   display:none;
+}
+
+#waitMessage:focus {
+  outline: none;
+}
+
+#bikeImg {
+
+/*   position: fixed;
+   bottom: 0px;
+   left: 0px;*/
+   margin-top: 10px;
+   padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
